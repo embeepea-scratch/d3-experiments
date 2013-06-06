@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line-avg {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.line-val {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
+}
+
+
+#vis {
+  border: 1px solid black;
+}
+
+</style>
+</head>
+<body>
+<script src="../jquery/jquery.js"></script>
+<script src="../d3/d3.v3.js"></script>
+<script src="line-chart.js"></script>
+<div id="vis"></div>
+</body>
+</html>
